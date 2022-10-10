@@ -1,0 +1,259 @@
+/* RESET DO NAVEGADOR */
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* CORPO DO SITE */
+
+body {
+    
+    background-color: #09084d;
+    color: #fff;
+    font-family: 'Arial', Sans-Serif;
+    font-size: 1em;
+    position: relative;
+    
+}
+
+.main_style {
+    
+    background-color: #fff;
+    z-index: 1;
+    padding: 30px 0px;
+    position: relative;
+    
+}
+
+.bg_effect {
+    
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    margin-top: -105px;
+    
+}
+
+/* CABEÇALHO E MENU DO SITE */
+
+.header_bar {
+    
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu {
+    
+    width: 100%;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.menu_list {
+    
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu_list_option {
+    
+    color: #fff;
+    background-color: #09084d;
+    border: 1px solid #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0px 5px;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.50s;
+    cursor: pointer;
+    
+}
+
+.menu_list_option:hover {
+    
+    color: #09084d;
+    background-color: #fff;
+    transition: 0.50s;
+    
+}
+
+.menu_option-selected {
+    
+    background-color: #fff;
+    color: #09084d;
+    
+}
+
+.menu_linha {
+    
+    line-height: 30px;
+    text-align: center;
+    
+}
+
+
+/* TÍTULO PRINCIPAL E FOTO DO AUTO */
+
+.section_initial {
+    
+    width: 100%;
+    margin-top: 40px;
+    text-align-last: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+
+.my_port_title {
+    
+    width: 100%;
+    height: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5em;
+    
+}
+
+.author_image {
+    
+    width: 190px;
+    height: 190px;
+    border-radius: 200px;
+    border: 5px solid #fff;
+    background-image: url('./foto_autor.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    
+}
+
+/* SEÇÕES E ARTIGOS SOBRE O AUTOR */
+
+.section_principal {
+    
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px 0px;
+    
+    
+}
+
+.article_one {
+    
+    width: 85%;
+    color: #fff;
+    border-radius: 10px;
+    margin: 30px 0px;
+    padding: 30px 30px;
+    
+}
+
+.article_title {
+    
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 10px;
+    font-size: 2.0em;
+    color:#09084d;
+    
+}
+
+.article_content {
+    
+    color: #09084d;
+    word-spacing: 2px;
+    line-height: 1.2em;
+    font-size: 0.9em;
+    font-weight: bold;
+    
+}
+
+/* BOTÃO DE REDIRECIONAMENTO */
+
+.btn_section {
+    
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: no-wrap;
+    margin: 10px 0px;
+    
+}
+
+.btn_style {
+    
+    color: #09084d;
+    text-decoration: none;
+    background-color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    width: 80%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid #09084d;
+    border-radius: 100px;
+    transition: 0.50s;
+    font-size: min(7vw, 1.6em);
+    
+}
+
+.btn_style:hover {
+    
+    color: #fff;
+    background-color: #09084d;
+    transition: 0.50s;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+
+.footer_bar {
+    
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #09084d;
+    z-index: 0;
+    
+}
+
